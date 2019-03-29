@@ -5,6 +5,9 @@ module.exports = {
     filename: 'main.js',
   },
   devtool: 'inline-source-map',
+  devServer: {
+    historyApiFallback: true,
+  },
   module: {
     rules: [
       {

@@ -4,7 +4,8 @@ module.exports = {
     'browser': true,
   },
   'rules': {
-    'react/jsx-filename-extension': 0,
     'react/prefer-stateless-function': 0,
+    'react/jsx-filename-extension': 0,
+    'react/jsx-curly-spacing': [1, 'always'],
   },
 };
