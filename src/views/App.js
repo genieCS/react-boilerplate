@@ -6,16 +6,16 @@ import PageA from './PageA';
 import PageB from './PageB';
 
 export default class App extends Component {
-  render() {
-    return (
-      <div className="react-app">
-        <Menu />
-        <Switch>
-          <Route exact path="/" component={ Home } />
-          <Route path="/a" component={ PageA } />
-          <Route path="/b" component={ PageB } />
-        </Switch>
-      </div>
-    );
-  }
+    render() {
+        return (
+            <div className="react-app">
+                <Menu />
+                <Switch>
+                    <Route exact path="/" component={ Home } />
+                    <Route path="/a" component={ PageA } />
+                    <Route path="/b" component={ PageB } />
+                </Switch>
+            </div>
+        );
+    }
 }

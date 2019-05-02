@@ -5,8 +5,8 @@ import './styles/index.scss';
 import App from './views/App';
 
 render(
-  <BrowserRouter>
-    <App />
-  </BrowserRouter>,
-  document.getElementById('root'),
+    <BrowserRouter>
+        <App />
+    </BrowserRouter>,
+    document.getElementById('root'),
 );
